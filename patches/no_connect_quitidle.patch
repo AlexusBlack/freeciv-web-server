@@ -1,0 +1,15 @@
+diff --git a/server/sernet.c b/server/sernet.c
+index e3f00dc..85323f4 100644
+--- a/server/sernet.c
++++ b/server/sernet.c
+@@ -563,9 +563,7 @@ enum server_events server_sniff_all_input(void)
+       static time_t last_noplayers;
+       static bool conns;
+ 
+-      if (conn_list_size(game.est_connections) > 0) {
+-	conns = TRUE;
+-      }
++	    conns = TRUE;
+       if (conns && conn_list_size(game.est_connections) == 0) {
+ 	if (last_noplayers != 0) {
+ 	  if (time(NULL) > last_noplayers + srvarg.quitidle) {

@@ -1,17 +1,21 @@
-Freeciv C source checkout and patching
---------------------------------------
+Freeciv
+=======
 
-** Below is how upstream (https://github.com/freeciv/freeciv-web) freeciv-web works.
-   It's not true for TnT at the moment. **
+[![Build Status](https://travis-ci.org/freeciv/freeciv.svg?branch=master)](https://travis-ci.org/freeciv/freeciv) 
+[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
-This directory is where the Freeciv C server will be checked out from Git, and patched to work with Freeciv-web in the browser.
+Freeciv is a Free and Open Source empire-building strategy game inspired by the history of human civilization. 
+ 
+Please see the [doc](doc) directory for a complete list of documentation files.
 
-Freeciv will be checkout out from here:  https://github.com/freeciv/freeciv
+Links
+=====
+Freeciv website: [Freeciv.org](http://www.freeciv.org/) 
 
-prepare_freeciv.sh  - a script which will checkout Freeciv from Git, then patch apply the patches and finally configure and compile the Freeciv C server.
+Submit patches: [Hostedredmine](http://www.hostedredmine.com/projects/freeciv/) 
 
-apply_patches.sh - applies patches against the Freeciv C source code.
+Community forum: [forum.freeciv.org](http://forum.freeciv.org/) 
 
-version.txt - contains the Git revision of Freeciv to check out from Git.
 
-The Freeciv C server is installed to $HOME/freeciv.
+
+
